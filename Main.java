@@ -26,7 +26,7 @@ public class Main {
             int winCount = 0;
             int loseCount = 0;
             
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 100; i++) //Bug number 7: First game should be titled “Game 1” instead of “Game 0”
             {
             	String name = "Fred";
             	int balance = 100;
