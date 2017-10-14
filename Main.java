@@ -4,7 +4,10 @@ import java.io.*;
 public class Main {
 	
 	public static void main(String[] args) throws Exception {
-		
+		/*
+		Bug number 8: Maintain that the user is above 18
+		A conditional method will be created encapsulating the following code
+		*/
 	   BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
         Dice d1 = new Dice();
