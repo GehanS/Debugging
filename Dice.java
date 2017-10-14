@@ -10,7 +10,7 @@ public class Dice {
 		return value;
 	}
 
-	public DiceValue roll() {
+	public DiceValue roll() { //Bug number 4: Every throw is the same for each game (corresponds with the Dice.java)
 		return DiceValue.getRandom();
 	}		
 	
