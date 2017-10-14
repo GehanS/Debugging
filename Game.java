@@ -33,7 +33,7 @@ public class Game {
 		    
 		int matches = 0;
 		for ( Dice d : dice) {
-			d.roll();
+			d.roll(); //Bug number 4: All throws are the same for every game(corresponds with Dice.java)
 			if (d.getValue().equals(pick)) { 
 				matches += 1;
 			}
