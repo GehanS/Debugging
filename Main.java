@@ -28,7 +28,7 @@ public class Main {
             
             for (int i = 0; i < 100; i++) //Bug number 7: First game should be titled “Game 1” instead of “Game 0”
             {
-            	String name = "Fred";
+            	String name = "Fred"; //9 requests users name
             	int balance = 100;
             	int limit = 0;
                 player = new Player(name, balance);
