@@ -14,7 +14,7 @@ public class Main {
         Dice d2 = new Dice();
         Dice d3 = new Dice();
 
-        Player player = new Player("Fred", 100);
+        Player player = new Player("Fred", 100); //Bug 9 and 10: Ask user for the name and the balance
         Game game = new Game(d1, d2, d3);
         List<DiceValue> cdv = game.getDiceValues();
 
