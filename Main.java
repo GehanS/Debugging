@@ -83,7 +83,7 @@ public class Main {
             totalLosses += loseCount;
 
             String ans = console.readLine();
-            if (ans.equals("q")) break;
+            if (ans.equals("q")) break; //Bug number 13: The program terminates once button “q” is pressed
         } //while true
         
         System.out.println(String.format("Overall win rate = %.1f%%", (float)(totalWins * 100) / (totalWins + totalLosses)));
