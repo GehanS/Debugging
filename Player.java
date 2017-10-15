@@ -38,7 +38,7 @@ public class Player {
 	
 	public void receiveWinnings(int winnings) {
 		if (winnings < 0) throw new IllegalArgumentException("Winnings cannot be negative.");
-		balance = balance + winnings;		
+		balance = balance + winnings;	//Bug number 1: Game does not payout at correct(appropriate) level	
 	}
 	
 	public String toString() {
