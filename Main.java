@@ -53,7 +53,13 @@ public class Main {
                     
                     System.out.printf("Rolled %s, %s, %s\n",
                     		cdv.get(0), cdv.get(1), cdv.get(2));
-                    
+                  			
+					/*
+					Bug number 3: Odds don’t appear correctly
+					
+					method block will be placed here
+					*/
+			
                     if (winnings > 0) {
 	                    System.out.printf("%s won %d, balance now %d\n\n",
 	                    		player.getName(), winnings, player.getBalance());
